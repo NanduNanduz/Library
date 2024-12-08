@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/libBackground.jpg);
+  background-size: cover;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.books-page{
+  background-image: url(../images/booksbackground.jpg);
+  background-size: cover;
+}
+.nav-link.active {
+    text-decoration: underline;
+}
+
+.card-img-top {
+  width: auto; 
+  height: 300px; 
+  object-fit: cover;
+  overflow: hidden; 
+}
+
+
+.card-body:empty {
+  display: none;
+}
+
+
+
+.card-body {
+  padding: 0.5rem; 
+}
+
+ 
