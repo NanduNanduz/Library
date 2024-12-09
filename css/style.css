@@ -6,6 +6,9 @@
 body {
   background-image: url(../images/libBackground.jpg);
   background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nav-item a:hover {
